@@ -1,0 +1,19 @@
+.title {
+	font-family: 'Roboto', monospace;
+	font-size: 4em;
+	position: fixed;
+	left: 50%;
+	transform: translate(-15%,0);
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 0;
+	padding-top: 0.67em;
+	padding-bottom: 0.67em;
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 3em;
+	}
+}
